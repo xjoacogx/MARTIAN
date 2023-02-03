@@ -1,0 +1,108 @@
+/* Clases simpless */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, #222045, #B85A58);
+    display: grid;
+    place-items: center;
+    height: 695px;
+}
+
+.fondo{
+    display: flex;
+    width: 1139px;
+    height: 568px;
+    background: linear-gradient(45deg, #8D3F52, #CB5758);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 568px;
+    height: 568px;
+    background: linear-gradient(45deg, #2D1837, #6A3049);
+}
+
+.left img{
+    width: 264px;
+    height: 264px;
+    align-items: center;
+    margin: 4rem;
+}
+
+.left span{
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', 'bold';
+    letter-spacing: 30px;
+    color: #BD6E81;
+}
+
+.right{
+    width: 568px;
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 390px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .txt{
+    width: 366px;
+    height: 30px;
+    border: 0px;
+    border-bottom: #DD787C solid 3px;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+form .Btn{
+    width: 175px;
+    height: 61px;
+    display: flex;
+    background: none;
+    border: 3px solid #DB8089;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', 'bold';
+    font-size: 24px;
+    color: #F49DA6;
+    margin-top: 40px;
+    margin-inline: 12px;
+    cursor: pointer;
+}
+
+form a{
+    text-decoration: none;
+    font-family: 'Segoe UI', 'bold';
+    font-size: 18px;
+    color: #F49DA6;
+    margin-top: auto;
+}
+
+/* Pseudo Clasesss */
+
+.txt::placeholder{
+    color: #F49DA6;
+    font-size: 18px;
+    font-family: 'Segoe UI', 'bold';
+}
